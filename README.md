@@ -1,4 +1,4 @@
-# A personal project - edbosisto.com
+# Personal website for edbosisto.com
 
-- Using Spectral template from html5up.com
-- Static website is complete apart from blog page
+- Static site using Spectral template from html5up.com
+
