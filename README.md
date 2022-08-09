@@ -1,4 +1,5 @@
 # Personal website for edbosisto.com
 
-- Static site using Spectral template from html5up.com
+The personal website for Ed Bosisto
 
+Hosted at edbosisto.com
