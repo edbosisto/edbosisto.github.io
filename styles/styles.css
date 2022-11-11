@@ -751,6 +751,13 @@ section {
   justify-content: flex-start;
 }
 
+.thanks h3 {
+  padding: 1rem;
+}
+.thanks .btn-con {
+  padding: 1rem;
+}
+
 .btn-con {
   display: flex;
   align-self: flex-start;
