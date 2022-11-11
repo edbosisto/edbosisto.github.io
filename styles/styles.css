@@ -495,6 +495,7 @@ section {
   margin-bottom: 1.5rem;
   color: var(--color-white);
   text-align: center;
+  padding: 0 0.5rem;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
@@ -566,6 +567,8 @@ section {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: var(--color-white);
+  text-align: center;
+  padding: 0 0.5rem;
 }
 .songs .song-item .hover-items .icons {
   display: flex;
