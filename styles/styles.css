@@ -211,9 +211,10 @@ section {
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   width: 50%;
-  height: 50%;
+  height: 70%;
   margin-left: 9rem;
   background-color: var(--color-black);
+  padding: 1rem 0;
   transition: all 0.4s ease-in-out;
 }
 .header-content .left-header .image img {
@@ -691,11 +692,16 @@ section {
   align-items: center;
   font-size: 1.3rem;
 }
-.contact-content-con .left-contact .contact-icon {
+.contact-content-con .left-contact .contact-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-content-con .left-contact .contact-icons .contact-icon {
   display: flex;
   margin-top: 2rem;
 }
-.contact-content-con .left-contact .contact-icon a {
+.contact-content-con .left-contact .contact-icons .contact-icon a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -708,13 +714,13 @@ section {
   margin: 0 0.4rem;
   transition: all 0.4s ease-in-out;
 }
-.contact-content-con .left-contact .contact-icon a:hover {
+.contact-content-con .left-contact .contact-icons .contact-icon a:hover {
   background-color: var(--color-secondary);
 }
-.contact-content-con .left-contact .contact-icon a:hover i {
+.contact-content-con .left-contact .contact-icons .contact-icon a:hover i {
   color: var(--color-primary);
 }
-.contact-content-con .left-contact .contact-icon a i {
+.contact-content-con .left-contact .contact-icons .contact-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -958,7 +964,7 @@ section {
     padding: 0;
   }
   header .right-header {
-    padding: 0 !important;
+    padding: 2rem 0 !important;
   }
   .theme-btn {
     width: 50px;
@@ -1016,7 +1022,7 @@ section {
     padding-bottom: 6rem;
   }
   .section {
-    padding: 2rem 2.5rem !important;
+    padding: 2rem 1.5rem !important;
   }
   .main-title h2 {
     font-size: 2.5rem;
@@ -1039,5 +1045,31 @@ section {
   }
   .controls .control {
     margin: 0.1rem 0.3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-content .right-header .name {
+    font-size: 2rem !important;
+  }
+  .contact-container .contact-content-con .left-contact h4 {
+    font-size: 1.5rem;
+  }
+  .contact-container .contact-content-con .left-contact .contact-info .contact-item p {
+    font-size: 1rem;
+    text-align: right;
+  }
+  .contact-container .contact-content-con .left-contact .contact-info .contact-item .icon {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+  }
+  .contact-container .contact-content-con .left-contact .contact-info .contact-item .icon i {
+    font-size: 1.1rem;
+  }
+  .contact-container .contact-content-con .left-contact .contact-icon a {
+    width: 25px;
+    height: 25px;
+  }
+  .contact-container .contact-content-con .left-contact .contact-icon a i {
+    font-size: 1.1rem;
   }
 }/*# sourceMappingURL=styles.css.map */

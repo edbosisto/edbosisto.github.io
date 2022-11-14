@@ -97,7 +97,7 @@
         padding: 0;
     }
     header .right-header {
-        padding: 0 !important;
+        padding: 2rem 0 !important;
     }
 
     .theme-btn {
@@ -168,7 +168,7 @@
     }
 
     .section {
-        padding: 2rem 2.5rem !important;
+        padding: 2rem 1.5rem !important;
     }
 
     .main-title {
@@ -194,6 +194,49 @@
         background-color: var(--color-grey5);
         .control {
             margin: .1rem .3rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .header-content .right-header {
+        .name {
+            font-size: 2rem !important;
+        }
+    }
+    .contact-container {
+        .contact-content-con {
+            .left-contact {
+                h4 {
+                    font-size: 1.5rem;
+                }
+                .contact-info {
+                    .contact-item {
+                        p {
+                            font-size: 1rem;
+                            text-align: right;
+                        }
+                        .icon {
+                            display: grid;
+                            grid-template-columns: 30px 1fr;
+                            i {
+                                font-size: 1.1rem;
+                            }
+
+                        }
+                    }
+                }
+                .contact-icon {
+                    a {
+                        width: 25px;
+                        height: 25px;
+                        i {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }

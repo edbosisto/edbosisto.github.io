@@ -206,9 +206,10 @@ section {
         .image {
             border-radius: var(--br-sm-2);
             width: 50%;
-            height: 50%;
+            height: 70%;
             margin-left: 9rem;
             background-color: var(--color-black);
+            padding: 1rem 0;
             transition: all .4s ease-in-out;
             img {
                 width: 100%;
@@ -704,10 +705,14 @@ section {
                 }
             }
         }
-        .contact-icon {
+        .contact-icons {
             display: flex;
-            margin-top: 2rem;
-            a {
+            align-items: center;
+            justify-content: center;
+            .contact-icon {
+                display: flex;
+                margin-top: 2rem;
+                a {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -731,6 +736,7 @@ section {
                     justify-content: center;
                     font-size: 1.3rem;
                 }
+            }
             }
         }
     }
