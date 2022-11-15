@@ -6,7 +6,7 @@
 }
 
 :root {
-    --color-primary: #06003f;
+    --color-primary: #010046;
     --color-secondary: #00aedf;
     --color-white: white;
     --color-black: black;
@@ -765,9 +765,49 @@ section {
                 margin-left: 1.5rem;
             }
         }
-        .submit-btn {
+        .send-btn {
+            border-radius: 40px;
+            color: inherit;
+            font-weight: 600;
+            position: relative;
+            border: 1px solid var(--color-secondary);
             display: flex;
-            justify-content: flex-start;
+            align-self: flex-start;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            z-index: 1;
+            .btn-text {
+                padding: 0 2rem;
+            }
+            .btn-icon {
+                color: var(--color-white);
+                width: 40px;
+                height: 40px;
+                background-color: var(--color-secondary);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                padding: 1rem;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translateX(100%);
+                transition: all .4s ease-in-out;
+                z-index: -1;
+            }
+            &:hover {
+                &::before {
+                    width: 100%;
+                    height: 100%;
+                    background-color: var(--color-secondary);
+                    transform: translateX(0);
+                }
+            }
         }
     }
 }
