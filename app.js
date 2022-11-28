@@ -30,6 +30,8 @@ function PageTransitions(){
 
             const element = document.getElementById(id);
             element.classList.add('active');
+            // Scroll to top of actice section
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
         }
     })
 

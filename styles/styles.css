@@ -68,8 +68,7 @@ section {
 }
 
 .section {
-  transform: translateY(-100%) scale(0);
-  transition: all 0.4s ease-in-out;
+  opacity: 1;
   background-color: var(--color-primary);
 }
 
@@ -105,23 +104,23 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
+  -webkit-animation: fadeInAnim 1s ease-in;
+          animation: fadeInAnim 1s ease-in;
 }
-@-webkit-keyframes scaleAnim {
+@-webkit-keyframes fadeInAnim {
   0% {
-    transform: translateY(-100%) scaleY(0);
+    opacity: 0;
   }
   100% {
-    transform: translateY(0) scaleY(1);
+    opacity: 1;
   }
 }
-@keyframes scaleAnim {
+@keyframes fadeInAnim {
   0% {
-    transform: translateY(-100%) scaleY(0);
+    opacity: 0;
   }
   100% {
-    transform: translateY(0) scaleY(1);
+    opacity: 1;
   }
 }
 

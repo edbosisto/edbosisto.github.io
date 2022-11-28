@@ -68,8 +68,9 @@ section {
 }
 
 .section {
-    transform: translateY(-100%) scale(0);
-    transition: all .4s ease-in-out;
+    // I changed the transform animation to fade in. If transform is preferred, use all commented css here and in .active
+    // transform: translateY(-100%) scale(0);
+    opacity: 1;
     background-color: var(--color-primary);
 }
 
@@ -105,15 +106,24 @@ section {
 
 .active {
     display: block;
-    animation: scaleAnim 1s ease-in-out;
-    @keyframes scaleAnim {
+    animation: fadeInAnim 1s ease-in;
+    @keyframes fadeInAnim {
         0% {
-            transform: translateY(-100%) scaleY(0)
+            opacity: 0;
         }
         100% {
-            transform: translateY(0) scaleY(1)
+            opacity: 1;
         }
     }
+    // animation: scaleAnim 1s ease-in-out;
+    // @keyframes scaleAnim {
+    //     0% {
+    //         transform: translateY(-100%) scaleY(0)
+    //     }
+    //     100% {
+    //         transform: translateY(0) scaleY(1)
+    //     }
+    // }
 }
 
 
