@@ -375,6 +375,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .flask {
   width: 75%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .nodejs {
+  width: 65%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 70%;
 }
