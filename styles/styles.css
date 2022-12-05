@@ -361,7 +361,7 @@ section {
   width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 65%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 85%;
@@ -370,7 +370,7 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .django {
-  width: 80%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .flask {
   width: 75%;
