@@ -366,6 +366,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 85%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .C {
+  width: 75%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
   width: 80%;
 }
