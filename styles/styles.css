@@ -104,16 +104,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: fadeInAnim 1s ease-in;
-          animation: fadeInAnim 1s ease-in;
-}
-@-webkit-keyframes fadeInAnim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation: fadeInAnim 1s ease-in;
 }
 @keyframes fadeInAnim {
   0% {
