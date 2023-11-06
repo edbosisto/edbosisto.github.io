@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #010046;
-  --color-secondary: #00aedf;
+  --color-secondary: rgb(248, 175, 255);
   --color-white: white;
   --color-black: black;
   --color-grey0: rgb(212, 212, 212);
@@ -22,8 +22,8 @@
 }
 
 .light-mode {
-  --color-primary: rgb(214, 227, 255);
-  --color-secondary: rgb(247, 158, 255);
+  --color-primary: rgb(250, 250, 250);
+  --color-secondary: #00aedf;
   --color-white: rgb(105, 105, 105);
   --color-black: black;
   --color-grey0: rgb(212, 212, 212);
