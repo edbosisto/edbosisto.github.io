@@ -8,6 +8,12 @@
 :root {
     --color-primary: rgb(4, 0, 83);
     --color-secondary: rgb(243, 111, 255);
+    --color-primary-red: 4;
+    --color-primary-green: 0;
+    --color-primary-blue: 83;
+    --color-secondary-red: 243;
+    --color-secondary-green: 111;
+    --color-secondary-blue: 255;
     --color-white: white;
     --color-black: black;
     --color-grey0: rgb(212, 212, 212);
@@ -24,6 +30,12 @@
 .light-mode {
     --color-primary: rgb(250, 250, 250);
     --color-secondary: rgb(0, 173, 216);
+    --color-primary-red: 250;
+    --color-primary-green: 250;
+    --color-primary-blue: 250;
+    --color-secondary-red: 0;
+    --color-secondary-green: 173;
+    --color-secondary-blue: 216;
     --color-white: rgb(105, 105, 105);
     --color-black: black;
     --color-grey0: rgb(212, 212, 212);
@@ -67,11 +79,21 @@ section {
     padding: 3rem 18rem;
 }
 
+.background {
+    background-image: url("../img/banner-edbosisto.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -2;
+}
+
 .section {
     // I changed the transform animation to fade in. If transform is preferred, use all commented css here and in .active
     // transform: translateY(-100%) scale(0);
-    opacity: 1;
-    background-color: var(--color-primary);
+    background-color: rgba(var(--color-primary-red), var(--color-primary-green), var(--color-primary-blue), 0.8);
 }
 
 .sec1 {
