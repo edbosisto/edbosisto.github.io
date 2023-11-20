@@ -292,6 +292,7 @@ section {
         .about-item {
             border: 1px solid var(--color-grey-5);
             border-radius: 5px;
+            background-color: rgba($color: #828282, $alpha: 0.1);
             transition: all .4s ease-in-out;
             box-shadow: var(--box-shadow-1);
             &:hover {
