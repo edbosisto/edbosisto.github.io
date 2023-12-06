@@ -859,10 +859,12 @@ section {
 
 .thanks {
     h3 {
-        padding: 1rem;
+        padding: 3rem 1rem 1rem 1rem;
+        text-align: center;
     }
     .btn-con {
         padding: 1rem;
+        justify-content: center;
     }
 }
 
